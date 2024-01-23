@@ -17,7 +17,7 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.StaffManager = void 0;
 var List_1 = require("./List");
-var StaffManager = /** @class */ (function (_super) {
+var StaffWageManager = /** @class */ (function (_super) {
     __extends(StaffManager, _super);
     function StaffManager() {
         return _super !== null && _super.apply(this, arguments) || this;
@@ -34,4 +34,4 @@ var StaffManager = /** @class */ (function (_super) {
     };
     return StaffManager;
 }(List_1.List));
-exports.StaffManager = StaffManager;
+exports.StaffManager = StaffWageManager;

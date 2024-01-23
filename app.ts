@@ -1,7 +1,7 @@
 import {Staff} from "./src/staff";
-import {StaffManager} from "./src/StaffManager";
+import {StaffWageManager} from "./src/StaffWageManager";
 
-let staffList: StaffManager = new StaffManager([]);
+let staffList: StaffWageManager = new StaffWageManager([]);
 
 const staff1: Staff = new Staff("1", 1000);
 const staff2: Staff = new Staff("2", 2000);

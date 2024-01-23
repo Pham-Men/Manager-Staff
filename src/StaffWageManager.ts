@@ -1,6 +1,6 @@
 import {List} from "./List";
 
-export class StaffManager extends List {
+export class StaffWageManager extends List {
     sumWage(): number {
         let sum: number = 0;
         this._container.forEach(i => sum += i._money)
