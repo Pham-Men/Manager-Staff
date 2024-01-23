@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var staff_1 = require("./src/staff");
+var StaffManager_1 = require("./src/StaffManager");
+var staffList = new StaffManager_1.StaffManager([]);
+var staff1 = new staff_1.Staff("1", 1000);
+var staff2 = new staff_1.Staff("2", 2000);
+var staff3 = new staff_1.Staff("3", 3000);
+staffList.insert(staff1);
+staffList.insert(staff2);
+staffList.insert(staff3);
+console.log(staffList.sumWage());
+console.log(staffList.findWageMax());
+console.table(staffList.getAll());
